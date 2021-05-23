@@ -1,0 +1,51 @@
+hr {
+    width: 75%;
+    background-color: darkslateblue;
+    height: 5px;
+    margin: 8vh auto 8vh auto;
+}
+
+.section p{
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.section h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.section iframe {
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 640px;
+}
+.section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.goals p{
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.goals h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.goals img{
+    display: inline-block;
+    justify-content: center;
+    /*I cannot place the images in the center*/
+    place-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
