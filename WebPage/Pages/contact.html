@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
+    <link href="../Styles/main.css" rel="stylesheet">
+    <link href="../Styles/section.css" rel="stylesheet">
+    <link href="../Styles/contacts.css" rel="stylesheet">
+
+    <script>
+        function SubmitNow() {
+            var x = true
+            if (x !==false) {
+                console.log("print me")
+            }
+            else {
+                console.log("dont print me")
+            }
+        }
+    </script>
 </head>
 <body>
-    
+    <div class="top-header">
+    </div>
+
+    <div class="nav-header">
+        <ul class="navigation">
+            <li><a href="index.html">Password<span> Generator</span></a></li>
+            <li><a href="design.html">Design</a></li>
+            <li><a href="implementation.html">Implementation</a></li>
+            <li><a href='team.html'>Team</a></li>
+            <li><a href='#'>Contact Us</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" placeholder="e.g. Alice Day">
+
+                <label for="mail">E-mail</label>
+                <input type="text" id="mail" name="E-mail" placeholder="e.g aliceday@gmail.com">
+
+                <label for="msg">Message</label>
+                <input type="text" id="msg" name="Message">
+
+                <button onclick="SubmitNow">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img class="footer-img" src="../Media/footer.png" alt="Footer image">
+    </div>
 </body>
 </html>

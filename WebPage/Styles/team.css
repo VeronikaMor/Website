@@ -1,6 +1,6 @@
 .section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 table {
@@ -14,5 +14,5 @@ td {
 }
 td img {
     height: auto;
-    width: 100%;
+    width: auto;
 }
